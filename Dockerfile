@@ -12,6 +12,6 @@ RUn mkdir -p /home
 
 EXPOSE 80
 
-COPY scrpits/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
+COPY scripts/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
 
 ENTRYPOINT ["./usr/bin/deploy-container-entrypoint.sh"]
