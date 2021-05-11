@@ -1,10 +1,16 @@
-From linuxserver/firefox:latest
+From linuxserver/qbittorrent:latest
+
+MAINTAINER Vansh Shah
 
 USER root
 
 ENV SHELL=/bin/bash
 
-ENV PORT=8080
+WORKDIR /home
+
+RUn mkdir -p /home
+
+EXPOSE 80
 
 COPY deploy-container/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
 

@@ -1,1 +1,1 @@
-docker build -t FIREFOX -f Dockerfile .
+docker build -t qbitorrent-vansh -f Dockerfile .
