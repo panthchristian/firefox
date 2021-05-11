@@ -1,0 +1,1 @@
+docker run --env PORT=8080 -it -p 8080:8080 FIREFOX
