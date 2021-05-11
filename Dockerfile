@@ -14,4 +14,4 @@ EXPOSE 80
 
 COPY scrpits/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
 
-ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
+ENTRYPOINT ["./usr/bin/deploy-container-entrypoint.sh"]
